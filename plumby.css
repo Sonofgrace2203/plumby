@@ -1,0 +1,33 @@
+html {
+    --font: "Inter BETA", "Inter BETA Extra Light";
+   }
+
+html:not(.dark-theme):root {
+    --primary-background-color: 30, 96, 170;
+    --primary-foreground-color: 30, 96, 170;
+    --secondary-background-color: 81, 172, 251;
+    --secondary-foreground-color: 81, 172, 251;
+    --tertiary-background-color: ;
+    --success-background-color: 209, 90, 55;
+    --success-foreground-color: 209, 90, 55;
+    --warning-background-color: 29, 78, 209;
+    --warning-foreground-color: 255, 255, 255;
+}
+
+body{
+  --font-size: 10px !important;
+}
+table{
+  border-collapse: collapse;
+}
+td{
+ /* border-bottom: 1px solid var(--border-background-color) ; */
+ border-bottom: 1px solid #e7e3e3;
+}
+td{
+  padding:6px
+}
+.dots{
+  width:20px;
+  height:20px;
+}
